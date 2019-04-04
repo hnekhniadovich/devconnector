@@ -46,6 +46,8 @@ class AddExperience extends Component {
             description: this.state.description
         };
 
+        console.log(expData);
+
         this.props.addExperience(expData, this.props.history);
     }
 
